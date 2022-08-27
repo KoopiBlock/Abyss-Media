@@ -1,0 +1,29 @@
+.post {
+    margin-top: -10em;
+    padding-top: 10em;
+    color: var(--font_1);
+    background-image: linear-gradient(#01252e, #01151A, #01151A, #01151A, #01151A)
+}
+
+.post-header {
+    width: 100%;
+    text-align: center;
+
+}
+
+.post-title {
+    font-size: 3em;
+}
+
+.post-author {
+    margin-top: -1em;
+}
+
+.post-image {
+    width: 100%;
+}
+
+.post-article {
+    margin: 1.5em 1.5em;
+    font-size: 1.5em;
+}

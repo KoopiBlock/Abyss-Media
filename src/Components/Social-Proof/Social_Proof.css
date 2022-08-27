@@ -1,0 +1,43 @@
+.sp-title {
+    font-size: 3em;
+    text-align: center;
+    margin: 0em;
+    margin-bottom: .5em;
+}
+
+.sp-value {
+    margin-bottom: 2em;
+}
+
+.sp-container {
+    margin: 1em;
+
+}
+
+.sp-paragraf {
+    text-align: center;
+    font-size: 1.5em;
+}
+
+.c-title {
+    font-size: 2.5em;
+    text-align: center;
+}
+
+
+.social-proof {
+    background-image: linear-gradient(#02c5f1, #14819a, #117E96);
+}
+
+@media screen and (min-width:600px) {
+    .social-div {
+        display: flex;
+        flex-direction: row;
+        margin-bottom: 1em;
+    }
+
+    .sp-container {
+        width: 45%;
+
+    }
+}

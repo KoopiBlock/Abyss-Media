@@ -1,0 +1,171 @@
+.form {
+    min-width: 45%;
+    margin: 2em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: var(--font_1);
+
+}
+
+.cta-title {
+    color: var(--font_1);
+    font-size: 3em;
+    text-align: center;
+    margin-top: -3em;
+    padding-top: 3em;
+}
+
+.contact {
+    margin-top: -11em;
+    padding-top: 13em;
+    background-image: linear-gradient(#01151A, #000c0f, #000c0f);
+}
+
+.image-div {
+    margin: 0;
+    width: 35%;
+    margin-top: 5em;
+}
+
+.contact-image {
+
+    margin: 1em;
+    width: 100%;
+}
+
+
+
+
+.head {
+    font-size: 2.5em;
+    color: var(--font_2);
+    margin-bottom: 1.3em;
+    margin-top: 0em;
+}
+
+.inputs {
+    margin: .5em 1em .5em 1em;
+    padding: .3em;
+    width: 80%;
+    font-size: 1.5em;
+    background-color: var(--inputs);
+    color: var(--font_1);
+    text-align: center;
+    border: 2px var(--font_2) solid;
+    border-radius: .3em;
+}
+
+.text-input {
+    margin: .5em .5em .5em .5em;
+    width: 80%;
+    max-width: 80%;
+    height: 10em;
+    font-size: 1.5em;
+    background-color: var(--inputs);
+    color: var(--font_1);
+    padding: .2em;
+    border: 2px var(--font_2) solid;
+    border-radius: .3em;
+}
+
+.input-btn {
+    padding: .3em;
+    background-color: var(--font_2);
+    margin-top: .5em;
+    border-radius: .3em;
+    color: var(--main);
+    padding: .2em 1em;
+    font-size: 2.5em;
+    font-weight: 600;
+    cursor: pointer;
+    margin-bottom: 1em;
+}
+
+.input-btn:active {
+    padding: .3em;
+    background-color: var(--main);
+    margin-top: .5em;
+    border-radius: .3em;
+    color: var(--font_2);
+    font-size: 2.5em;
+    transform: translateY(4px);
+}
+
+.labels {
+    font-size: 2em;
+    font-weight: 500;
+}
+
+.input-msg {
+    font-size: 1.5em;
+}
+
+@media screen and (max-width:900px) {
+    .form {
+        margin: 1em;
+        font-weight: 800;
+    }
+
+    .inputs {
+        font-size: 2em;
+    }
+
+    .image-div {
+        margin: auto;
+        width: 40%;
+
+    }
+}
+
+
+
+@media screen and (min-width:900px) {
+
+    .contact {
+        display: inline-block;
+        margin: 0;
+        padding: 0;
+        margin-top: -1em;
+        padding-top: 1em;
+
+    }
+
+    .contact-contanier {
+
+        margin: auto;
+        display: flex;
+        width: 100%;
+        flex-wrap: wrap;
+
+
+    }
+
+    .image-div {
+        width: 40%;
+        margin-bottom: 1em;
+        margin-top: 3em;
+
+    }
+
+    .contact-image {
+        width: 100%;
+    }
+
+}
+
+@media screen and (min-width:1300px) {
+
+    .contact-image {
+
+        width: 60%;
+        margin: auto;
+
+    }
+
+    .contact-contanier {
+        align-items: center;
+        justify-content: end;
+        margin-top: -1em;
+    }
+}
