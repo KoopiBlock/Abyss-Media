@@ -1,6 +1,5 @@
-import React, { useState, useEffect, useRef } from 'react'
+import React, { useState, useEffect } from 'react'
 import { NavLink } from 'react-router-dom'
-import orca from './LOGO.png'
 import logo1 from './Asset 1.png'
 import logo2 from './Asset 2.png'
 import { FaTimes } from "react-icons/fa";
@@ -9,7 +8,6 @@ import './Navbar.css'
 
 function Navbar() {
     const [menuOpen, setMenuOpen] = useState(false)
-    const [click, setClick] = useState(false)
     const [color, setColor] = useState(false)
 
 

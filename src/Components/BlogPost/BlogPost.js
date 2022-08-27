@@ -15,10 +15,6 @@ import Footer from '../Footer/Footer.js'
 
 const builder = imageUrlBuilder(sanityClient)
 
-function urlFor(source) {
-    return builder.image(source)
-}
-
 function BlogPost() {
 
     const [postData, setPostData] = useState(null)
