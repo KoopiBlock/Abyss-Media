@@ -1,9 +1,5 @@
 import React, { useState, useEffect } from 'react'
 import sanityClient from '../../Client'
-import fish from './orca.jpg'
-import icon1 from './images/Ass1.png'
-import icon2 from './images/Ass2.png'
-import icon3 from './images/Ass3.png'
 import './Features.css'
 
 

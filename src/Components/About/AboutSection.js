@@ -1,6 +1,5 @@
 import React, { useState, useEffect } from 'react'
 import sanityClient from '../../Client'
-import test from '..//Benefits/images/Asset-1.png'
 import './AboutSection.css'
 
 function AboutSection() {
