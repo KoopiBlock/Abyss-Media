@@ -1,6 +1,5 @@
 import React from 'react'
 import sanityClient from '../../Client.js'
-import imageUrlBuilder from '@sanity/image-url'
 import BlockContent from '@sanity/block-content-to-react'
 import { useState, useEffect } from 'react'
 import './BlogPost.css'
