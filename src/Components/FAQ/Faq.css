@@ -43,3 +43,9 @@
     font-size: 3em;
     font-weight: 700;
 }
+
+@media screen and (min-width:900px) {
+    .faq-wrap {
+        margin-bottom: 8em;
+    }
+}

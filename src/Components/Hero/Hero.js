@@ -41,7 +41,7 @@ function Hero() {
                             {hero.body}
                         </p>
                         <NavLink
-                            exact to="/gallery"
+                            exact to="/contact"
                             activeclassname="m"
                             className="hero-links"
                             id='hero-contact' onClick={handleClick}>

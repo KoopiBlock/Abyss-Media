@@ -55,7 +55,7 @@ function Benefits() {
                     <div className='flex-container'>
                         <h1 className='sp-title' id='t2'>{benefit.ctaTitle}</h1>
                         <NavLink
-                            exact to="/gallery"
+                            exact to="/contact"
                             activeclassname="m"
                             className="hero-links"
                             id='benefit-contact' onClick={handleClick}>

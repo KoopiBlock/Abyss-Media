@@ -49,6 +49,12 @@ function Navbar() {
                 </div>
                 <nav className={`${'nav'} ${menuOpen ? 'isMenu' : ''}`}>
                     <ul className='nav-ul'>
+                        <li className='nav-li'>
+
+                            <NavLink exact to="/" activeclassname="active" className={color ? 'nav-links' : 'nav-links2'} onClick={handleMenu}>
+                                Home
+                            </NavLink>
+                        </li>
 
                         <li className='nav-li'>
                             <NavLink exact to="/about" activeclassname="active" className={color ? 'nav-links' : 'nav-links2'} onClick={handleMenu}>

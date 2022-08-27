@@ -2,7 +2,7 @@ import React, { useRef, useState, useEffect } from 'react'
 import sanityClient from '../../Client'
 import emailjs from '@emailjs/browser'
 import './Contact.css'
-import meduza from './jellyfish.png'
+import testImage from './Asset 1.png'
 
 
 
@@ -35,11 +35,23 @@ function Contact() {
                 title1,
                 title2,
                 cta,
+                contactImage{
+                    asset->{
+                        _id,
+                        url
+                    },
+                },
             }`
         )
             .then((data) => setContactData(data))
             .catch(console.error)
     }, [])
+
+    if (!contactData) return (
+        <div className='loading'>
+            <img src={testImage} alt='Loading...' className='load-image' />
+        </div>
+    )
 
     return (
         <div className='contact'>
@@ -58,7 +70,7 @@ function Contact() {
                     </form>
 
                     <div className='image-div'>
-                        <img src={meduza} alt='e' className='contact-image'></img>
+                        <img src={conatct.contactImage.asset.url} alt='e' className='contact-image'></img>
                     </div>
                 </div>
             ))}

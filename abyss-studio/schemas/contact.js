@@ -18,7 +18,15 @@ export default {
             title: 'Cta',
             description: 'Call To Action (Keep it short!)',
             type: 'string'
-        }
+        },
+        {
+            name: 'contactImage',
+            title: 'Contact image',
+            type: 'image',
+            options: {
+                hotspot: true,
+            },
+        },
 
     ]
 }
