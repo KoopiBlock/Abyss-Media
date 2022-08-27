@@ -13,7 +13,7 @@ import Footer from '../Footer/Footer.js'
 
 
 
-const builder = imageUrlBuilder(sanityClient)
+
 
 function BlogPost() {
 
