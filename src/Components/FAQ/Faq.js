@@ -1,5 +1,5 @@
-import React, { useState, useEffect } from 'react'
-import sanityClient from '../../Client.js'
+import React, { useState } from 'react'
+
 import './Faq.css'
 
 function Faq({faq, index}) {
