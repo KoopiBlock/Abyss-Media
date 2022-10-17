@@ -37,7 +37,7 @@ function Benefits() {
     return (
         <div>
             {benefitsData && benefitsData.map((benefit, index) => (
-                <div className='benefits'>
+                <div className='benefits' key={index}>
                     <h1 className='benefits-title'>{benefit.sectionTitle}</h1>
                     <div className='benefits-container'>
                         <img src={asset_1} alt='e' className='benefit-image'></img>
@@ -55,7 +55,7 @@ function Benefits() {
                     <div className='flex-container'>
                         <h1 className='sp-title' id='t2'>{benefit.ctaTitle}</h1>
                         <NavLink
-                            exact to="/contact"
+                             to="/contact"
                             activeclassname="m"
                             className="hero-links"
                             id='benefit-contact' onClick={handleClick}>

@@ -40,7 +40,7 @@ function AboutSection() {
     return (
         <div>
             {aboutData && aboutData.map((about, index) => (
-                <div className='About'>
+                <div className='About' key={index}>
                     <div className='about-container' id='A'>
                         <img className='about-image' src={about.companyImage.asset.url} alt='e'></img>
                         <div className='text-container'>

@@ -43,7 +43,7 @@ function Navbar() {
             <div className={color ? 'content2' : 'content'}>
                 <div className='logo-container'>
                     <img className='logo-image' src={color ? logo1 : logo2} alt='e'></img>
-                    <NavLink exact to="/" id={color ? 'logo2' : 'logo'} onClick={handleMenu}>
+                    <NavLink  to="/" id={color ? 'logo2' : 'logo'} onClick={handleMenu}>
                         ABYSS MEDIA
                     </NavLink>
                 </div>
@@ -51,23 +51,23 @@ function Navbar() {
                     <ul className='nav-ul'>
                         <li className='nav-li'>
 
-                            <NavLink exact to="/" activeclassname="active" className={color ? 'nav-links' : 'nav-links2'} onClick={handleMenu}>
+                            <NavLink  to="/" activeclassname="active" className={color ? 'nav-links' : 'nav-links2'} onClick={handleMenu}>
                                 Home
                             </NavLink>
                         </li>
 
                         <li className='nav-li'>
-                            <NavLink exact to="/about" activeclassname="active" className={color ? 'nav-links' : 'nav-links2'} onClick={handleMenu}>
+                            <NavLink  to="/about" activeclassname="active" className={color ? 'nav-links' : 'nav-links2'} onClick={handleMenu}>
                                 About Us
                             </NavLink>
                         </li>
                         <li className='nav-li'>
-                            <NavLink exact to="/Blog" activeclassname="active" className={color ? 'nav-links' : 'nav-links2'} onClick={handleMenu}>
+                            <NavLink  to="/Blog" activeclassname="active" className={color ? 'nav-links' : 'nav-links2'} onClick={handleMenu}>
                                 Blog
                             </NavLink>
                         </li>
                         <li className='nav-li' id='cta-btn'>
-                            <NavLink exact to="/Contact" activeclassname="active" className={color ? 'nav-links' : 'nav-links2'} onClick={handleMenu}>
+                            <NavLink  to="/Contact" activeclassname="active" className={color ? 'nav-links' : 'nav-links2'} onClick={handleMenu}>
                                 Lets Talk
                             </NavLink>
                         </li>

@@ -33,7 +33,7 @@ function Hero() {
         <div className='top'>
             <div className='hero'>
                 {heroData && heroData.map((hero, index) => (
-                    <div className='banner'>
+                    <div className='banner' key={index}>
                         <h1 className='hero-title'>
                             {hero.title}
                         </h1>
@@ -41,7 +41,7 @@ function Hero() {
                             {hero.body}
                         </p>
                         <NavLink
-                            exact to="/contact"
+                            to="/contact"
                             activeclassname="m"
                             className="hero-links"
                             id='hero-contact' onClick={handleClick}>

@@ -35,7 +35,7 @@ function Features() {
             <br></br>
             <div className='flex-featured'>
                 {featuresData && featuresData.map((feature, index) => (
-                    <div className='featured-container'>
+                    <div className='featured-container' key={index}>
                         <img src={feature.featureImage.asset.url} alt='e' className='featured-image'></img>
                         <h1 className='featured-title' id='t1'>{feature.title}</h1>
                         <p className='featured-text'>{feature.body} </p>

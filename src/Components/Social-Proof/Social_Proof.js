@@ -27,7 +27,7 @@ function SocialProof() {
     return (
         <div>
             {socialData && socialData.map((social, index) => (
-                <div className='social-proof'>
+                <div className='social-proof' key={index}>
                     <h1 className='sp-title'>{social.sectionTitle}</h1>
                     <div className='social-div'>
                         <div className='sp-container'>
